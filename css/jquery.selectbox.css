@@ -1,0 +1,91 @@
+
+.sbHolder{
+	background-color:transparent;
+	height: 55px;
+	position: relative;
+	width: 100%;
+	margin:40px 0 0 0;
+}
+a.sbSelector{
+	color: #FFF;
+	outline: none;
+	text-decoration: none;
+}
+.sbSelector:focus {
+	border:2px solid #cd1516; border-radius:4px; outline:0; -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px #cd1516; box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px #cd1516;border-radius: 4px; transition:1.20s; -webkit-transition:1.20s;
+}
+.sbSelector{
+	border:2px solid #FFF;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	height:55px;
+	overflow: hidden;
+	position: absolute;
+	display: block;
+	text-indent: 10px;
+	padding:15px 0 0 2px;
+	width: 100%;
+}
+.sbSelector:link, .sbSelector:hover{
+	color: #FFF;
+	outline: none;
+	text-decoration: none;
+}
+.sbToggle{
+	background: url(../images/select-icons.png) 0 -116px no-repeat;
+	display: block;
+	height: 45px;
+	outline: none;
+	position: absolute;
+	right: 10px;
+	margin:12px 0 0 0;
+	width: 30px;
+}
+.sbToggle:hover{
+	background: url(../images/select-icons.png) 0 -167px no-repeat;
+}
+.sbToggleOpen{
+	background: url(../images/select-icons.png) 0 -16px no-repeat;
+}
+.sbToggleOpen:hover{
+	background: url(../images/select-icons.png) 0 -66px no-repeat;
+}
+.sbHolderDisabled{
+	background-color: #3C3C3C;
+	border: solid 1px #515151;
+}
+.sbHolderDisabled .sbHolder{
+	
+}
+.sbHolderDisabled .sbToggle{
+	
+}
+.sbOptions{
+	background-color: #FFF;
+	border:2px solid #FFF;
+	list-style: none;
+	position: absolute;
+	width: 100%;
+	margin:20px 0 0 0;
+	z-index: 1;
+	overflow-y: auto;
+}
+.sbOptions li{
+	margin:0 0 0 -40px;
+	padding:0 0 0 10px;
+	border-bottom: dotted 1px #515151;
+}
+.sbOptions li:hover{
+	background-color:#006798;
+}
+.sbOptions a{
+	display: block;
+	outline: none;
+	padding: 7px 0 7px 0;
+}
+.sbOptions a:link{
+	color: #000;
+	text-decoration: none;
+}
+
+.sbOptions a:hover{ color: #FFF;}

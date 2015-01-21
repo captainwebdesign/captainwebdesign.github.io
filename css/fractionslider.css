@@ -1,0 +1,397 @@
+
+/* SLIDER STYLES */
+	
+.slider-wrapper{
+	position:relative;
+	overflow:hidden;
+	width:100%;
+}
+
+.slider{
+	position:relative;
+	width:100%; 
+	margin:0 auto;
+}
+
+@media only screen and (min-width: 1000px){
+	.slider{
+		width:1000px;
+	}
+}
+
+@media only screen and (min-width: 1440px){
+	.slider{
+		width:1440px;
+	}
+}
+
+/* ELEMENT STYLES */
+.sam-slide p.slide-title{ font-family:lato; font-weight:900; font-size:60px; color:#FFF;}
+
+.sam-slide p{
+	position:absolute;
+	top:-200px;
+	z-index:8000;
+	padding:1% 3%;
+	font-size:25px;
+	line-height:100%;
+	text-align:center;
+	color:#fff;
+	white-space: nowrap;
+}
+
+.fraction-slider{
+	position:relative;
+	width:100%; height:100%;
+	overflow:visible;
+}
+
+.fraction-slider .sam-slide{
+	display:none; width:100%; height:100%;
+	position:absolute;
+	z-index:5000;
+
+}
+
+.fraction-slider .active-slide{
+	z-index:9999;
+}
+
+.fraction-slider .fs_obj{
+	display:block; display:none;
+	position:absolute;
+	top:0px; left:100%;
+	z-index:7000;
+}
+
+.fraction-slider .fs_fixed_obj{
+	z-index:6000;
+	left:0;
+}
+
+.fraction-slider .fs_obj *{
+	display:inline-block;
+	position:relative;
+	top:0px; left:0px;
+}
+
+.fs_loader{
+	width:100%; height:400px;
+	background:url(../images/fs.spinner.gif) center center no-repeat transparent;
+}
+
+/** CONTROLS **/
+
+.fraction-slider .prev,
+.fraction-slider .next{
+	position:absolute;
+	width:65px; height:65px;
+	z-index:9999;
+	display:block;
+}
+
+.fraction-slider .prev{
+	left:10px; top:45%;
+	background:url(../images/icon/slide-arrow-left.png);
+	
+}
+.fraction-slider .prev:hover{
+	background:url(../images/icon/slide-arrow-left-hover.png);
+}
+
+.fraction-slider .next{
+	right:10px; top:45%;
+	background:url(../images/icon/slide-arrow-right.png);
+}
+
+.fraction-slider .next:hover{
+	background:url(../images/icon/slide-arrow-right-hover.png);
+}
+
+
+
+@media only screen and (min-width: 1025px) and (max-width: 1170px) {
+
+
+.logo img{width:200px; height:200px; margin-left:-27px;}
+.sam{ margin-left:20px;}
+
+.slider-wrapper{
+	position:relative;
+	overflow:hidden;
+	width:100%;
+	height:500px;
+}
+
+.fraction-slider .sam-slide{
+	display:none; width:100%; height:500px;
+
+	}
+	
+	/** CONTROLS **/
+
+.fraction-slider .prev,
+.fraction-slider .next{
+	position:absolute;
+	width:65px; height:65px;
+	z-index:9999;
+	display:block;
+}
+
+.fraction-slider .prev{
+	left:10px; top:45%;
+	background:url(../images/icon/slide-arrow-left.png);
+
+}
+.fraction-slider .prev:hover{
+	background:url(../images/icon/slide-arrow-left-hover.png);
+}
+
+.fraction-slider .next{
+	right:10px; top:45%;
+	background:url(../images/icon/slide-arrow-right.png);
+}
+
+.fraction-slider .next:hover{
+	background:url(../images/icon/slide-arrow-right-hover.png);
+}
+
+}
+
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+
+.logo img{width:180px; height:170px; margin-left:-27px;}
+.sam{ margin-left:20px;}
+
+.slider-wrapper{
+	position:relative;
+	overflow:hidden;
+	width:100%;
+	height:480px;
+}
+
+.fraction-slider .sam-slide{
+	display:none; width:100%; height:480px;
+
+	}
+	
+.fraction-slider .prev,
+.fraction-slider .next{
+	position:absolute;
+	width:65px; height:65px;
+	z-index:9999;
+	display:block;
+}
+
+.fraction-slider .prev{
+	left:10px; top:45%;
+	background:url(../images/icon/slide-arrow-left.png);
+
+}
+.fraction-slider .prev:hover{
+	background:url(../images/icon/slide-arrow-left-hover.png);
+}
+
+.fraction-slider .next{
+	right:10px; top:45%;
+	background:url(../images/icon/slide-arrow-right.png);
+}
+
+.fraction-slider .next:hover{
+	background:url(../images/icon/slide-arrow-right-hover.png);
+}
+}
+
+
+@media only screen and (min-width: 641px) and (max-width: 768px) {
+
+.logo img{width:160px; height:150px; margin-left:-27px;}
+.sam{ margin-left:20px;}
+
+.slider-wrapper{
+	position:relative;
+	overflow:hidden;
+	width:100%;
+	height:450px;
+}
+
+.fraction-slider .sam-slide{
+	display:none; width:100%; height:450px;
+
+	}
+	
+	/** CONTROLS **/
+
+.fraction-slider .prev,
+.fraction-slider .next{
+	position:absolute;
+	width:65px; height:65px;
+	z-index:9999;
+	display:block;
+}
+
+.fraction-slider .prev{
+	left:10px; top:45%;
+	background:url(../images/icon/slide-arrow-left.png);
+
+}
+.fraction-slider .prev:hover{
+	background:url(../images/icon/slide-arrow-left-hover.png);
+}
+
+.fraction-slider .next{
+	right:10px; top:45%;
+	background:url(../images/icon/slide-arrow-right.png);
+}
+
+.fraction-slider .next:hover{
+	background:url(../images/icon/slide-arrow-right-hover.png);
+}
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 640px) {
+
+
+.inno-logo img{width:160px; height:140px; margin-left:-27px;}
+.sam-logo img{width:150px; height:140px; margin-left:5px;}
+
+.slider-wrapper{
+	position:relative;
+	overflow:hidden;
+	width:100%;
+	height:400px;
+}
+
+.fraction-slider .sam-slide{
+	display:none; width:100%; height:400px;
+
+	}
+	
+	/** CONTROLS **/
+
+.fraction-slider .prev,
+.fraction-slider .next{
+	position:absolute;
+	width:44px; height:45px;
+	z-index:9999;
+	display:block;
+}
+
+.fraction-slider .prev{
+	left:10px; top:65%;
+	background:url(../images/icon/arrow-left.png);
+
+}
+.fraction-slider .prev:hover{
+	background:url(../images/icon/arrow-left-hover.png);
+}
+
+.fraction-slider .next{
+	right:10px; top:65%;
+	background:url(../images/icon/arrow-right.png);
+}
+
+.fraction-slider .next:hover{
+	background:url(../images/icon/arrow-right-hover.png);
+}
+
+}
+
+@media only screen and (min-width: 361px) and (max-width: 480px) {
+
+
+.logo img{width:130px; height:120px; margin-left:-27px;}
+.sam{ margin-left:20px;}
+
+.slider-wrapper{
+	position:relative;
+	overflow:hidden;
+	width:100%;
+	height:350px;
+}
+
+.fraction-slider .sam-slide{
+	display:none; width:100%; height:350px;
+	}
+	
+	/** CONTROLS **/
+
+.fraction-slider .prev,
+.fraction-slider .next{
+	position:absolute;
+	width:44px; height:45px;
+	z-index:9999;
+	display:block;
+}
+
+.fraction-slider .prev{
+	left:10px; top:60%;
+	background:url(../images/icon/arrow-left.png); background-repeat: no-repeat;
+
+}
+.fraction-slider .prev:hover{
+	background:url(../images/icon/arrow-left-hover.png); background-repeat: no-repeat;
+}
+
+.fraction-slider .next{
+	right:10px; top:60%;
+	background:url(../images/icon/arrow-right.png); background-repeat: no-repeat;
+}
+
+.fraction-slider .next:hover{
+	background:url(../images/icon/arrow-right-hover.png); background-repeat: no-repeat;
+}
+
+}
+
+
+@media only screen and (min-width: 240px) and (max-width: 360px) {
+
+.sam-slide>.slide-text{font-size:30px;}
+
+.logo img{width:100px; height:90px; margin-left:-27px;}
+.sam{ margin-left:20px;}
+
+.slider-wrapper{
+	position:relative;
+	overflow:hidden;
+	width:100%;
+	height:350px;
+}
+
+.fraction-slider .sam-slide{
+	display:none; width:100%; height:350px;
+
+	}
+	
+	/** CONTROLS **/
+
+.fraction-slider .prev,
+.fraction-slider .next{
+	position:absolute;
+	width:44px; height:45px;
+	z-index:9999;
+	display:block;
+}
+
+.fraction-slider .prev{
+	left:0px; top:70%;
+	background:url(../images/icon/arrow-left.png); background-repeat: no-repeat;
+
+}
+.fraction-slider .prev:hover{
+	background:url(../images/icon/arrow-left-hover.png); background-repeat: no-repeat;
+}
+
+.fraction-slider .next{
+	right:0px; top:70%;
+	background:url(../images/icon/arrow-right.png); background-repeat: no-repeat;
+}
+
+.fraction-slider .next:hover{
+	background:url(../images/icon/arrow-right-hover.png); background-repeat: no-repeat;
+}
+
+}
